@@ -1,3 +1,7 @@
+# 🌐 Live Demo
+
+You can try the app here: [Heart Failure Predictor](https://talha-amjad-heart-health-predictor.streamlit.app/)
+
 # 🫀 Heart Failure Prediction App
 
 This project is a **Machine Learning-based Heart Failure Prediction System** built with **Python, Scikit-learn, and Streamlit**.  
@@ -60,7 +64,7 @@ The project has two main parts:
 ## 📂 Project Structure
 ```
 heart-failure-predictor/
-│── train_model.py        # Model training & saving
+│── data_analysis.ipynb        # Model training & savin
 │── app.py                # Streamlit app for predictions
 │── heart_failure_clinical_records_dataset.csv
 │── model.pkl             # Trained Logistic Regression model
