@@ -40,5 +40,31 @@ The project has two main parts:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/heart-failure-predictor.git
+   git clone https://github.com/TalhaAmjadDev/heart-failure-predictor.git
    cd heart-failure-predictor
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # for Linux/Mac
+   venv\Scripts\activate      # for Windows
+3. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+4. Retrain the model:
+   ```bash
+   python train_model.py
+5. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+
+## 📂 Project Structure
+
+heart-failure-predictor/
+│── train_model.py        # Model training & saving
+│── app.py                # Streamlit app for predictions
+│── heart_failure_clinical_records_dataset.csv
+│── model.pkl             # Trained Logistic Regression model
+│── scaler.pkl            # StandardScaler object
+│── columns.pkl           # Columns used in training
+│── requirements.txt      # Dependencies
+│── README.md             # Project documentation
