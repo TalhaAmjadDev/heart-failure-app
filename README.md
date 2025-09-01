@@ -58,7 +58,7 @@ The project has two main parts:
    streamlit run app.py
 
 ## 📂 Project Structure
-
+```
 heart-failure-predictor/
 │── train_model.py        # Model training & saving
 │── app.py                # Streamlit app for predictions
